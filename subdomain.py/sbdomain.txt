@@ -1,0 +1,10 @@
+mail
+admin
+images
+local
+localhost
+drive
+ftp
+blog
+support
+photo
