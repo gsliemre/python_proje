@@ -65,10 +65,7 @@ window = Tk()
 window.title("Password Manager")
 window.config(padx=30, pady=30)
 
-canvas = Canvas(height=200, width=200)
-logo = PhotoImage(file="topsecret.png")
-canvas.create_image(100,100,image=logo)
-canvas.pack()
+
 
 title_info_label = Label(text="Enter your title",font=("Verdena",20,"normal"))
 title_info_label.pack()
