@@ -1,6 +1,6 @@
 import requests
 
-api_anhtar = '9ec33f7de30acef4fbb71a4fe26a0096'
+api_anhtar = 'kendi api numaranızı girmelisin'# API almaız kerkiyor /https://home.openweathermap.org/
 
 şehir= input('Şehir ismini giriniz: ')
 
