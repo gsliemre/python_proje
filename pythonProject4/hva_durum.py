@@ -1,10 +1,10 @@
 import requests
 
-api_key = '9ec33f7de30acef4fbb71a4fe26a0096'
+api_anhtar = '9ec33f7de30acef4fbb71a4fe26a0096'
 
-city = input('Enter city name: ')
+şehir= input('Şehir ismini giriniz: ')
 
-url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}'
+url = f'http://api.openweathermap.org/data/2.5/weather?q={şehir}&appid={api_anhtar}'
 
 response = requests.get(url)
 
